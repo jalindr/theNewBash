@@ -80,11 +80,13 @@ prompt() {
   local MOVE_CURSOR_5_LEFT='\033[5D'
 
 
+  # this is for the fancy terminal.... change the first » to $(battery_charge) display battery status
+
     PS1="${TITLEBAR}
 ${SAVE_CURSOR}${MOVE_CURSOR_RIGHTMOST}${MOVE_CURSOR_5_LEFT}\
-$(battery_charge)${RESTORE_CURSOR}\
+${D_DIR_COLOR}» ${RESTORE_CURSOR}\
 ${D_USER_COLOR}\u ${D_INTERMEDIATE_COLOR}\
-> ${D_MACHINE_COLOR}\h ${D_INTERMEDIATE_COLOR}\
+» ${D_MACHINE_COLOR}\h ${D_INTERMEDIATE_COLOR}\
 : ${D_DIR_COLOR}\w ${D_INTERMEDIATE_COLOR}\
 $(mitsuhikos_lastcommandfailed)\
 $(demula_vcprompt)\
