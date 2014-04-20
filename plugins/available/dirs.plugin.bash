@@ -11,7 +11,7 @@ about-plugin 'directory stack navigation'
 # Show directory stack
 alias d="dirs -v -l"
 
-# Change to location in stack bu number
+# Change to location in stack by number
 alias 1="pushd"
 alias 2="pushd +2"
 alias 3="pushd +3"
