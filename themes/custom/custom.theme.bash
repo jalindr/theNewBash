@@ -1,27 +1,7 @@
 #!/usr/bin/env bash
 
-# For the real Monokai colors you should add these to your .XDefaults or
-# terminal configuration:
-#! ----------------------------------------------------------- TERMINAL COLORS
-#! monokai - http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/
-#*background: #272822
-#*foreground: #E2DA6E
-#*color0: black
-#! mild red
-#*color1: #CD0000
-#! light green
-#*color2: #A5E02D
-#! orange (yellow)
-#*color3: #FB951F
-#! "dark" blue
-#*color4: #076BCC
-#! hot pink
-#*color5: #F6266C
-#! cyan
-#*color6: #64D9ED
-#! gray
-#*color7: #E5E5E5
 green="\033[1;32m"
+
 # ----------------------------------------------------------------- COLOR CONF
 D_DEFAULT_COLOR="${normal}"
 D_INTERMEDIATE_COLOR="${white}"
